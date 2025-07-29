@@ -1,10 +1,10 @@
-// Crea una funzione che accetta due parametri: firstName, lastName. La funzione dovrebbe restituire un oggetto con le proprietà firstName e lastName
+// Crea una funzione che accetta due parametri: firstName, lastName. La funzione dovrebbe restituire un oggetto con le proprietà firstName e lastName. Esporta la funzione dal file.
 
-const user = (firsName, lastName) => {
+const names = (firsName, lastName) => {
   return {
     firsName,
     lastName,
   };
 };
 
-module.exports = user;
+module.exports = names;
