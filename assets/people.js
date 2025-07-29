@@ -3,3 +3,12 @@
 // importo le funzioni
 const names = require("./names.js");
 const hobbies = require("./hobbies.js");
+
+const getSubjectInfo = () => {
+  return {
+    names: names("Simone", "Visconti"),
+    hobbies: hobbies("Scacchi", "Leggere", "Hiking"),
+  };
+};
+
+console.log(getSubjectInfo());
